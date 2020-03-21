@@ -1,0 +1,18 @@
+#################################################################
+## Input_boolean
+#################################################################
+homeautomation:
+  name: Home Automation
+  icon: mdi:home-automation
+startrecording:
+  name: Camera Recording
+  initial: off
+  icon: mdi:record-rec
+devmode:
+  name: Developer Mode
+  initial: off
+  icon: mdi:tune
+sleeping:
+  name: Sleeping
+  initial: off
+  icon: mdi:sleep

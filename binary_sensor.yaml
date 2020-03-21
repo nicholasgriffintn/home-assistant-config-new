@@ -1,0 +1,11 @@
+binary_sensor:
+  - platform: workday
+    country: GB
+    workdays: [mon, tue, wed, thu, fri]
+    excludes: [sat, sun]
+
+  - platform: arlo
+    monitored_conditions:
+      - motion
+      - sound
+      - ding
